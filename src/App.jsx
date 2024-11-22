@@ -38,7 +38,7 @@ function App() {
       <div>
         <input ref={inputRef} /> 만큼을{" "}
         <button onClick={handleAdd}>더할게요</button>
-        {"   "}
+        {""}
         <button onClick={handleSubtract}>뺄게요</button>
       </div>
       <hr />
