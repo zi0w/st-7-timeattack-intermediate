@@ -1,10 +1,10 @@
 import TodoList from "./TodoList";
 
-export default function TodoListWrapper({ todos, setTodos }) {
+export default function TodoListWrapper() {
   return (
     <>
-      <TodoList todos={todos} setTodos={setTodos} isDone={false} />
-      <TodoList todos={todos} setTodos={setTodos} isDone={true} />
+      <TodoList isDone={false} />
+      <TodoList isDone={true} />
     </>
   );
 }
